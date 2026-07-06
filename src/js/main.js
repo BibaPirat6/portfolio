@@ -1,6 +1,10 @@
 import "../css/style.css";
 
 import "./navigation.js";
-import "./observer.js";
+import { renderAll } from "./render.js";
+import { observeReveals } from "./observer.js";
 
-console.log("Portfolio loaded");
+document.addEventListener("DOMContentLoaded", () => {
+    renderAll();
+    observeReveals();
+});
