@@ -5,7 +5,7 @@ export const skillCategories = [
   },
   {
     title: "Frontend",
-    items: ["HTML5", "CSS3", "Tailwind CSS", "Blade", "JavaScript"]
+    items: ["HTML5", "CSS3", "Tailwind CSS", "Blade", "JavaScript", "Vue.js 3", "Alpine.js"]
   },
   {
     title: "Database",
@@ -28,9 +28,10 @@ export const skillCategories = [
 export const roadmap = {
   done: [
     "PHP 8", "Laravel 12", "REST API", "Laravel Sanctum", "MySQL",
-    "Blade",  "Tailwind CSS", "Git / GitHub", "Laravel Excel", "FullCalendar"
+    "Blade", "Vue.js 3", "Tailwind CSS", "Git / GitHub", "Laravel Excel", "FullCalendar"
   ],
   next: [
-    "Docker / Docker Compose", "PostgreSQL", "Redis", "Тестирование (PHPUnit, Pest)", "React"
+    "Docker / Docker Compose", "PostgreSQL", "Redis", "Queues (Laravel)",
+    "Testing (PHPUnit / Pest)", "CI/CD (GitHub Actions)", "Nginx"
   ]
 };
