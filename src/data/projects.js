@@ -61,7 +61,7 @@ export const projects = [
     skills: ["организация PHP-проекта", "MySQL", "деплой на shared-хостинг"],
     hiringNote: "Хороший сигнал базового качества кода без «страховки» фреймворка.",
     github: "https://github.com/BibaPirat6/KorokNet",
-    demo: null
+    demo: "https://ivan.infinityfree.io/koroknet/?i=1"
   },
   {
     id: "weboptika",
